@@ -1,0 +1,12 @@
+{
+  "workspace": "你的视频工作区路径，例如 D:/视频",
+  "docTool": "口播稿和分镜表放哪：飞书 / 本地 Markdown / 其他文档工具",
+  "transcribe": "转录用什么：volc（自带脚本，火山引擎）/ open-edit / video-talkcraft",
+  "cut": "剪口播用什么：ffmpeg / open-edit",
+  "visual": "画面用什么：video-talkcraft / remotion / hyperframes，可写多个",
+  "coverImageSkill": "封面生图用的 Skill 名称；留空则在本机已装的 Skill 里找生图类",
+  "designSkill": "设计讨论、模糊视觉反馈用的 Skill 名称；可留空",
+  "platforms": ["小红书", "B站", "抖音"],
+  "volcAsr": { "apiKey": "火山引擎 API Key（也可以不填，改用环境变量 VOLC_ASR_API_KEY）", "resourceId": "留空用默认 volc.seedasr.auc", "modelName": "留空用默认 bigmodel" },
+  "followHook": "结尾关注钩子句式，例如：我把……整理成了一份文档，只为换取你手里的点赞、收藏和关注"
+}
