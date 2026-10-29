@@ -8,5 +8,5 @@
   "designSkill": "设计讨论、模糊视觉反馈用的 Skill 名称；可留空",
   "platforms": ["小红书", "B站", "抖音"],
   "volcAsr": { "apiKey": "火山引擎 API Key（也可以不填，改用环境变量 VOLC_ASR_API_KEY）", "resourceId": "留空用默认 volc.seedasr.auc", "modelName": "留空用默认 bigmodel" },
-  "followHook": "结尾关注钩子句式，例如：我把……整理成了一份文档，只为换取你手里的点赞、收藏和关注"
+  "followHook": "结尾关注钩子句式，例如：我把……整理成了一份文档，只为换取你手里的点赞、收藏和关注，我们下期再见"
 }
