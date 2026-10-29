@@ -6,7 +6,23 @@
   "visual": "画面用什么：video-talkcraft / remotion / hyperframes，可写多个",
   "coverImageSkill": "封面生图用的 Skill 名称；留空则在本机已装的 Skill 里找生图类",
   "designSkill": "设计讨论、模糊视觉反馈用的 Skill 名称；可留空",
-  "platforms": ["小红书", "B站", "抖音"],
-  "volcAsr": { "apiKey": "火山引擎 API Key（也可以不填，改用环境变量 VOLC_ASR_API_KEY）", "resourceId": "留空用默认 volc.seedasr.auc", "modelName": "留空用默认 bigmodel" },
-  "followHook": "结尾关注钩子句式，例如：我把……整理成了一份文档，只为换取你手里的点赞、收藏和关注，我们下期再见"
+  "platforms": [
+    "小红书",
+    "B站",
+    "抖音"
+  ],
+  "volcAsr": {
+    "keyEnv": "VOLC_ASR_API_KEY",
+    "keyLocation": "把火山 Key 设成用户级环境变量 VOLC_ASR_API_KEY（Windows：设置 → 编辑账户的环境变量；macOS / Linux：写进 ~/.zshrc 或 ~/.bashrc），这里只记位置，不写 Key",
+    "apiKey": "不推荐：实在不方便设环境变量才把 Key 填在这里（本文件不会上传）",
+    "resourceId": "留空用默认 volc.seedasr.auc",
+    "modelName": "留空用默认 bigmodel"
+  },
+  "followHook": "结尾关注钩子句式，例如：我把……整理成了一份文档，只为换取你手里的点赞、收藏和关注，我们下期再见",
+  "deps": {
+    "python": "本机 Python 路径（3.10+），例如 C:/Python312/python.exe",
+    "opencv": "人脸安全区检测用：pip install --user opencv-python 后填版本和安装位置",
+    "faceModel": "人脸模型位置；talkcraft 的 face_bbox.py 第一次运行自动下载到 ~/.cache/koubo/",
+    "remotionRuntime": "Remotion 共享依赖位置：video-talkcraft/runtime/node_modules（在该目录 npm ci 安装）"
+  }
 }
