@@ -5,7 +5,6 @@
   "cut": "剪口播用什么：ffmpeg / open-edit",
   "visual": "画面用什么：video-talkcraft / remotion / hyperframes，可写多个",
   "coverImageSkill": "封面生图用的 Skill 名称；留空则在本机已装的 Skill 里找生图类",
-  "coverPhotos": "你的真人照片所在文件夹或文件路径（封面用：正脸、微笑、光线好，最好有手指方向的姿势），可写多个",
   "designSkill": "设计讨论、模糊视觉反馈用的 Skill 名称；可留空",
   "platforms": [
     "小红书",
